@@ -20,7 +20,7 @@ def is_palindrome(num_to_check):
     return True
 
 
-def largest_palindrome(num_of_digits):
+def largest_palindrome():
     n = 0
     for first_number in range(999, 100, -1):
         for second_number in range(first_number, 100, -1):
@@ -30,6 +30,6 @@ def largest_palindrome(num_of_digits):
     return n
 
 
-print(largest_palindrome(3))
+print(largest_palindrome())
 
 
