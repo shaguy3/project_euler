@@ -5,9 +5,8 @@ for a in range(999, 100, -1):
         if x > n:
             s = str(a * b)
             if s == s[::-1]:
-                 n = a * b
-                 print(a, b)
-print (n)
+                n = a * b
+                print(a, b)
 
-my_str = 'hello world'
-print(my_str[::-1])
+
+print(n)
