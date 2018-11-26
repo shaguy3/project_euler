@@ -64,4 +64,3 @@ n = 10
 print("The smallest number that is divisible by the numbers 1 to", n, ", is:", smallest_divisible(n))
 t1 = time.time()
 print("Program runtime:", t1 - t0, "seconds")
-
