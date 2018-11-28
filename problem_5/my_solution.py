@@ -3,7 +3,6 @@ import time
 
 # A worse way to find the smallest divisible number from one to 20. runtime: 432 seconds
 def smallest_divisible_for_dummies():
-    t0 = time.time()
     n = 20
     while True:
         for i in range(19, 10, -1):
@@ -40,6 +39,7 @@ def prime_factors(number):
         prime_list[str(number)] = 1
     return prime_list
 
+
 # Returns the smallest number that is divisible by all of the integers in the range from 1 until a given top value.
 # Runtime: 0.0 seconds.
 def smallest_divisible(top_number):
@@ -60,7 +60,7 @@ def smallest_divisible(top_number):
 
 
 t0 = time.time()
-n = 10
+n = 20
 print("The smallest number that is divisible by the numbers 1 to", n, ", is:", smallest_divisible(n))
 t1 = time.time()
 print("Program runtime:", t1 - t0, "seconds")
