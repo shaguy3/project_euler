@@ -60,7 +60,7 @@ def smallest_divisible(top_number):
 
 
 t0 = time.time()
-n = 20
-print("The smallest number that is divisible by the numbers 1 to", n, ", is:", smallest_divisible(n))
+n = 100000
+print("The smallest number that is divisible by the numbers 1 to", n, ", is: ", smallest_divisible(n))
 t1 = time.time()
 print("Program runtime:", t1 - t0, "seconds")
